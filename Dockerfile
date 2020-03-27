@@ -7,4 +7,4 @@ FROM docker.repository.cloudera.com/cdsw/engine:10
 RUN apt-get update
 RUN apt-get install -y tesseract-ocr libtesseract-dev
 
-RUN pip install pytesseract
+RUN pip3 install pytesseract
